@@ -1,3 +1,6 @@
+//REFERÊNCIAS: DOUGLAS MARÇAL, BERNARDO RIBEIRO, LUCAS VILAR, RAFHAEL OLIVEIRA, YURI CARVALHO
+//QUE PESSOAS SENSACIONAIS! NAO TENHO PALAVRAS PARA AGRADECER!
+
 let input = document.getElementById("texto-tarefa");
 let enterButton = document.getElementById("criar-tarefa");
 let ol = document.getElementById("lista-tarefas");
@@ -17,7 +20,7 @@ function onlyTheSelectedItemIsGray(event) {
   for (let i = 0; i < ol.children.length; i += 1) {
     ol.children[i].classList.remove("done");
   }
-  event.target.className = "done";
+  event.target.classList.add('done');
 }
 
 function markTheItemAsCompleted(e) {
