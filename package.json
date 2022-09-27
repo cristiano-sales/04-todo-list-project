@@ -15,9 +15,6 @@
     "mochawesome-merge": "4.0.0",
     "mochawesome-report-generator": "4.1.0"
   },
-  "dependencies": {
-    "eslint-config-trybe-fundamentals": "^1.1.0"
-  },
   "scripts": {
     "test": "cypress run",
     "cypress:open": "cypress open",
